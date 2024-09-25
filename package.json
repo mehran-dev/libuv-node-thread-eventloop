@@ -1,0 +1,14 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1": "UV_THREADPOOL_SIZE=1 node node.js",
+    "start2": "UV_THREADPOOL_SIZE=2 node node.js",
+    "start": " node"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
